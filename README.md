@@ -14,5 +14,14 @@ pandas version 1.4.3
 matplotlib version 3.5.0
 scipy version 1.4.1
 ```
+## Outputs
+<ins>Outputs are three-dimensional temperatures, presures, logarithm of permeabilities at the target domain.</ins>
+The 3D coordinates (X, Y, Elevation) of the target domain are read from a CSV file.
+The "save_predicts" directory is created at the beginning of the program, and the csv files with temperatures, pressures, logarithm of permeabilities are output for each specified epoch.
+The "save_checkpoints" directory is also created by the program, and The checkpoint files and loss histories are output to this directory.
+The loss history csv file contains not only the loss for each epoch of the training and validation data, but also the loss components (Temperature_loss, Pressure_loss, Permeability_loss, Mass_balance_loss, Energy_balance_loss etc).
+
 ## Citation
-Kazuya Ishitsuka, Keiichi Ishizu, Norihiro Watanabe, Yusuke Yamaya, Anna Suzuki, Toshiyuki Bandai, Yusuke Ohta, Toru Mogi, Hiroshi Asanuma, Tatsuya Kajiwara, & Takeshi Sugimoto, Toward reliable and practical inverse modeling of natural-state geothermal systems using physics-informed neural networks: three-dimensional model construction and assimilation with magnetotelluric data, Under Review.
+Kazuya Ishitsuka, Keiichi Ishizu, Norihiro Watanabe, Yusuke Yamaya, Anna Suzuki, Toshiyuki Bandai, Yusuke Ohta, Toru Mogi, Hiroshi Asanuma, Tatsuya Kajiwara, & Takeshi Sugimoto
+
+"Toward reliable and practical inverse modeling of natural-state geothermal systems using physics-informed neural networks: three-dimensional model construction and assimilation with magnetotelluric data", Under Review.
