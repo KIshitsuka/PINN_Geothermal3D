@@ -1,6 +1,6 @@
 # PINN_Geothermal3D
 **This program is a physics-informed neural network (PINN) for modeling temperatures, pressures, and permeabilities of natural-state geothermal systems.**
-
+![Image](https://github.com/user-attachments/assets/1b6bbf22-e133-4059-a99a-73e61af19d56)
 In geothermal areas, temperature, pressure and permeability structures are generally modeled from the physical quantities obtained at available wells, and the constructed model is used for evaluating geothermal resource potential, selecting drilling locations, and planning geothermal energy production. We have proposed a method that uses PINNs to model temperatures, pressures, and permeabilities from well data.
 
 PINNs conducts network training by considering physical laws and boundary conditions in addition to the data. This program assumes a subsurface porous medium saturated with pure water as geothermal systems, and considers the mass and energy balance equations for a single-phase liquid in a steady state condition as physical laws.
