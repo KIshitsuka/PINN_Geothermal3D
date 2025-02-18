@@ -14,7 +14,7 @@ pandas version 1.4.3
 matplotlib version 3.5.0
 scipy version 1.4.1
 ```
-To run PINN_Geothermal_naturalstate.ipynb, put the program together with utils and optimizer directories as well as csv datasets (Reference_model.csv and Welldata_30wells.csv) in the same directory.
+To run PINN_Geothermal_naturalstate.ipynb, put the program together with utils and optimizer directories as well as csv datasets (Reference_model.csv and Welldata_30wells.csv) in the same directory, and execute the jupyter-notebook program.
 ## Outputs
 <ins>Outputs are three-dimensional temperatures, presures, logarithm of permeabilities at the target domain.</ins>
 The 3D coordinates (X, Y, Elevation) of the target domain are read from a CSV file.
