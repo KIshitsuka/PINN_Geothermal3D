@@ -1,1 +1,7 @@
-The csv files are the examples of well data used as a input file of the PINN program. 
+The csv files are the examples of reference and synthetic well data used as a input file of the PINN program. 
+X_Easting: Coordinates in X direction
+Y_Northing: Coordindates in Y direction
+Elevation: Corrdinates in Z direction
+T_degC: Temperature in degree celsius 
+P_Pa: Pore pressure in Pa
+log10PER: Logarithm of permeability
