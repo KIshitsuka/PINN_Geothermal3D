@@ -9,7 +9,8 @@ This program is written based on TensorFlow on a jupyter-notebook platform, and 
 ```
 Tensorflow version 2.9.1
 Tensorflow probability version 0.17.0
-Numpy version 1.21.1
+python version 3.8.10
+numpy version 1.21.1
 pandas version 1.4.3
 matplotlib version 3.5.0
 scipy version 1.4.1
