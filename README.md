@@ -26,4 +26,4 @@ The loss history csv file contains not only the loss for each epoch of the train
 ## Citation
 Kazuya Ishitsuka, Keiichi Ishizu, Norihiro Watanabe, Yusuke Yamaya, Anna Suzuki, Toshiyuki Bandai, Yusuke Ohta, Toru Mogi, Hiroshi Asanuma, Tatsuya Kajiwara, & Takeshi Sugimoto
 
-"Reliable and practical inverse modeling of natural-state geothermal systems using physics-informed neural networks: three-dimensional model construction and assimilation with magnetotelluric data", Under Review.
+"Reliable and practical inverse modeling of natural-state geothermal systems using physics-informed neural networks: three-dimensional model construction and assimilation with magnetotelluric data", Journal of Geophysical Research - Machine Learning and Computation, in press.
