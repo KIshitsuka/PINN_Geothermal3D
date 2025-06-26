@@ -1,1 +1,2 @@
 A version that has been refactored from the original program code.
+The coefficient annealing is not implemented in this program.
